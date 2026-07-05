@@ -247,13 +247,6 @@
   .btn-ghost{ background:transparent; color:var(--ink-60); font-weight:500; }
   .btn-row{ display:flex; flex-direction:column; gap:10px; margin-top:8px;}
 
-  .avatar-icon{
-    width:64px;height:64px;border-radius:20px;
-    background:var(--ink);
-    display:flex;align-items:center;justify-content:center;
-    margin-bottom:18px;
-  }
-
   .callout{
     background:var(--accent-soft);
     border:1px solid #C6DFCC;
@@ -489,7 +482,6 @@
           <div class="screen active" data-screen="splash">
             <div class="topbar"><span class="backbtn hidden">←</span><span class="steplabel">Sign up</span><span style="width:32px"></span></div>
             <div class="content" style="display:flex;flex-direction:column;justify-content:center;flex:1;">
-              <div class="avatar-icon">▶</div>
               <h2 class="title">Let's set up your account</h2>
               <p class="sub">We ask your date of birth first, so we can show you the right experience and, where the law requires it, bring in a parent or guardian.</p>
               <div class="field">
@@ -668,7 +660,6 @@
           <div class="screen" data-screen="download">
             <div class="topbar"><span class="backbtn" onclick="go('privacy')">←</span><span class="steplabel">Data request</span><span style="width:32px"></span></div>
             <div class="content center-flow">
-              <div class="avatar-icon">⬇️</div>
               <h2 class="title">Send Aarav's data to your email?</h2>
               <p class="sub">We'll package watch history, comments, and account details into a downloadable file and email it to the verified parent address on file.</p>
               <div class="btn-row" style="width:100%;">
@@ -695,7 +686,6 @@
           <div class="screen" data-screen="erase">
             <div class="topbar"><span class="backbtn" onclick="go('privacy')">←</span><span class="steplabel">Data request</span><span style="width:32px"></span></div>
             <div class="content center-flow">
-              <div class="avatar-icon" style="background:var(--red);">🗑️</div>
               <h2 class="title">Erase Aarav's account?</h2>
               <p class="sub">This permanently deletes the account, watch history, and comments. It can't be undone. We'll keep only what's legally required, and only for as long as the law requires.</p>
               <div class="btn-row" style="width:100%;">
